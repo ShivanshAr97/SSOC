@@ -1,0 +1,259 @@
+html{
+    scroll-behavior: smooth;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color:orange;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+nav h1{
+    cursor: pointer;
+}
+.heading h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: -2px;
+}
+.heading p{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: monospace;
+}
+section h1{
+    margin: auto;
+}
+.p1 h1{
+    margin-top: 22px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+nav ul li a{
+    color: white;
+}
+
+section{
+    display:  flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+.div1 p{
+    display: flex;
+    margin:20px 10px;
+    text-align: center;
+    font-size:larger;
+}
+body{
+    background-color: rgb(232, 250, 250);
+}
+
+section img{
+    width: 150px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.div2{
+    display: flex;
+    margin:auto;
+    background-color: white;
+}
+.btn{
+    margin:5px 10px;
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 8px;
+    background-color: white;
+}
+.img2{
+    margin-top: 60px;
+}
+.img3{
+    margin-top: 55px;
+}
+.p2 h1{
+    margin-top: 45px;
+}
+.p3 h1{
+    margin-top: 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+section{
+    margin:10px ;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+}
+.div1{
+    display: flex;
+}
+.div4{
+    margin:20px 50px;
+    display: flex;
+}
+.para{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    width: 60%;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.inner h1{
+    margin-top: -10px;
+    text-align: center;
+}
+.imag{
+    width: 300px;
+}
+.hover {
+    --s: 0.12em;   /* the thickness of the line */
+    --c: white; /* the color */
+    
+    color: white;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  .hover:hover {
+    --_p: 100%
+  }
+  .btn2{
+    margin: 10px;
+    border: none;
+    background-color: lightcyan;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 4px 6px;
+}
+.contributions{
+    margin: 0 20px;
+}
+.contributions h1{
+    margin-bottom: -7px;
+}
+.iot{
+    display: flex;
+}
+.tick{
+    margin:0 4px;
+    width: 16px;
+    height: 16px;
+}
+.end{
+    margin-top: 95px;
+}
+.iot1{
+    width: 50%;
+}
+#iot{
+    margin-bottom: 28px;
+}
+.iot2{
+    width: 50%;
+}
+.endtext{
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+}
+.content{
+    align-items: center;
+    display: flex;
+}
+.content p{
+    margin: 4px;
+}
+.headings{
+    margin-bottom: 8px;
+}
+footer{
+    background-color: orange;
+    color:white;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+footer a{
+    color:lightgray;
+}
+
+@media screen and (max-width: 480px) {
+    nav h1{
+        margin: auto;
+        padding:20px 0;
+        font-size: 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    .end{
+        margin-top: 0px;
+    }
+    .div4{
+        flex-direction: column;   
+    }
+    .para{
+        font-size: large;
+        width: 100%;
+    }
+    .heading{
+        margin:0 10px;
+        text-align: center;
+    }
+    .iot{
+        flex-direction: column;
+    }
+    .iot1, .iot2{
+        width: 100%;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .inner h1{
+        margin: 0;
+        font-size: 28px;
+    }
+    .imag{
+        width: 200px;
+    }
+    .div1 {
+        margin: auto;
+        flex-direction: column;
+    }
+  }
