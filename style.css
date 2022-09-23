@@ -135,6 +135,7 @@ section{
 .imag{
     width: 300px;
 }
+
 .hover {
     --s: 0.12em;   /* the thickness of the line */
     --c: white; /* the color */
@@ -212,6 +213,16 @@ footer{
 footer a{
     color:lightgray;
 }
+.content p a:hover{
+    color:rgb(224, 133, 21);
+}
+.diff{
+    font-size: 18px;
+    font-weight: 600;
+}
+br{
+    margin-bottom: 40px;
+}
 
 @media screen and (max-width: 480px) {
     nav h1{
@@ -226,7 +237,7 @@ footer a{
         margin-top: 0px;
     }
     .div4{
-        flex-direction: column;   
+        flex-direction: column;
     }
     .para{
         font-size: large;
